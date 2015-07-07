@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+ <head>
+  <title>WELCOME APP</title>
+  <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"></strong>
+  </head>
+ </head>
+ <body>
+	<header>
+	 <div class ="container">
+		<h1 class="logo">WELCOME</h1?
+	</div>
+	</header>
+
+	<div class ="container">
+		{% block content %}
+     		 {% endblock %}
+    	</div>
+     
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Information</title>
+<style>
+h1 {
+    text-align: center;
+}
+
+p{
+	text-align: center;
+}
+form{
+  margin:0 auto; 
+  width:250px;	
+  font-size: 1em;
+  font-weight: normal ;
+  text-align: center ;
+  letter-spacing: -1px;
+  color: #999;
+
+
+}
+
+
+</style>
+</head>
+
+</body>
+	
+	<h1 >Form for New Registration</h1>
+	<p> All fields are mandatory - ensure to have a valid email address and mobile number 
+	<br>
+	<hr>
+	</p>
+
+	<form method="post">
+	Email-ID <sup>*</sup> : <input type="email" name="emailid"/>
+	First name: <input type ="text" name="firstname"/>
+	<br>
+	Last name :<input type = "text" name="lastname"/>
+	<br>
+	D.O.B <sub> yyyy-mm-dd </sub> :<input type="date" name="DOB"/>
+	<br>
+	Contact Information : <input type="integer" name="contact" size="10">
+	<br>
+	User Name:<input type="text" name="username"/>
+	<br>
+	PassWord:<input type="password" name="paswrd"/>
+	<br><br>
+	 <p>
+    <input type="reset" value="Reset">
+    <button type="submit">Submit</button>
+  	</p>
+	
+	</form>
+
+
+	
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿select * from temp_data;
+delete from temp_data;
+select * from personal_info;
+
+delete from personal_info;
+
+insert into temp_data(username,paswrd)
+select user_name,pass_word
+from personal_info
+
+drop table temp_data
+
+create table temp_data(
+username varchar(30)NOT NULL UNIQUE,
+paswrd varchar(30) NOT NULL )
+
+
+select * from temp_data
+ORDER BY username
+
+select paswrd from temp_data where username='sagunsomani@123';
+
+select 11.5 DIV 4 ;
+
+CREATE TABLE DEMO(
+name1 varchar(10) NOT NULL,
+cntct varchar(10) NOT NULL UNIQUE,
+idsim SERIAL )
+
+
+
+
+VERY IMPORATNT 
+
+
+import numbers
+>>> isinstance(3, numbers.Integral)
+True
+
+drop table DEMO
+select * from DEMO
+INSERT Into DEMO values ('sagun','8108');
+
+INSERT Into DEMO values ('sagunSDG','8188');
+INSERT Into DEMO values ('LAKHOAJDS','8829');
+
+SELECT * FROM DEMO
+order by name1 
+
+
+SELECT CASE WHEN EXISTS (
+    SELECT *
+    FROM DEMO
+    WHERE name1 = 'sagun'
+)
+THEN CAST(1 AS BIT)
+ELSE CAST(0 AS BIT) END
+	

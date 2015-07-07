@@ -1,0 +1,26 @@
+rN@sswoRd222,, for the mail..
+
+
+
+THings to make the tool more effecient-
+
+
+---make appropriate entry to the databses so tht searching for an entry can be made useful(sorting method to be applied during insertion so as to make searching easier)
+
+---applying contraints to the opening and alteration of html code by 3rd party influence
+
+---applying various contrains to the form(data entry retrictions) so created so as to make it more secure and effective
+
+--- using lib / hash functions so as to make searching more effective while in a database--if statements
+  
+--Provide mechanism for adding and removal of accounts hence implementing the SSO concept.
+
+--Application of sessions and time-stamp concept accordingly
+
+-- Using OTP GENERATION CONCEPT  so as to make login more secure and validated
+
+Additional things to be done
+
+-prevent the website to retain data so entered 
+-handling cases for empty entries in databases.
+-using javascripts and other methods so as to prevent replication of data and also 
